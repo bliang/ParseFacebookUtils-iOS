@@ -1,8 +1,8 @@
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '7.0'
+platform :ios, ‘9.0’
 
 workspace 'ParseFacebookUtils'
 
-target 'ParseFacebookUtilsV4-UnitTests', :exclusive => true do
-  pod 'OCMock'
-end
+#target 'ParseFacebookUtilsV4-UnitTests', :exclusive => true do
+#  pod 'OCMock'
+#end
