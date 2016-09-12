@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1DA5941D6C1BAD007490BE /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DA692F1AB25A36008C3B7F /* FBSDKCoreKit.framework */; };
+		0A1DA5951D6C1BAD007490BE /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DA69301AB25A36008C3B7F /* FBSDKLoginKit.framework */; };
 		0AA97CB11D31B4690030C30C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA97CAF1D31B4690030C30C /* Bolts.framework */; };
 		0AA97CB21D31B4690030C30C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA97CB01D31B4690030C30C /* Parse.framework */; };
 		0AA97CB41D31B4970030C30C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA97CB31D31B4970030C30C /* SystemConfiguration.framework */; };
@@ -20,8 +22,6 @@
 		81CB98CC1AB7905D00136FA5 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* ParseFacebookUtilsV4.framework */; };
 		81CB98D91AB7920700136FA5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DA692F1AB25A36008C3B7F /* FBSDKCoreKit.framework */; };
 		81CB98DA1AB7920700136FA5 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DA69301AB25A36008C3B7F /* FBSDKLoginKit.framework */; };
-		81DA69311AB25A36008C3B7F /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DA692F1AB25A36008C3B7F /* FBSDKCoreKit.framework */; };
-		81DA69321AB25A37008C3B7F /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DA69301AB25A36008C3B7F /* FBSDKLoginKit.framework */; };
 		81E35FD41BAA6F8400348526 /* PFFacebookPrivateUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 81E35FD21BAA6F8400348526 /* PFFacebookPrivateUtilities.h */; };
 		81E35FD51BAA6F8400348526 /* PFFacebookPrivateUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E35FD31BAA6F8400348526 /* PFFacebookPrivateUtilities.m */; };
 		81EA09C01C178D0600B0F875 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EA09BC1C178D0600B0F875 /* Bolts.framework */; };
@@ -67,6 +67,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A1DA5901D6C1B1E007490BE /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../FB 4.14/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		0A1DA5911D6C1B1E007490BE /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../FB 4.14/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		0AA97CAF1D31B4690030C30C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../parse-library-1.12.0/Bolts.framework"; sourceTree = "<group>"; };
 		0AA97CB01D31B4690030C30C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../parse-library-1.12.0/Parse.framework"; sourceTree = "<group>"; };
 		0AA97CB31D31B4970030C30C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
@@ -144,12 +146,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A1DA5941D6C1BAD007490BE /* FBSDKCoreKit.framework in Frameworks */,
+				0A1DA5951D6C1BAD007490BE /* FBSDKLoginKit.framework in Frameworks */,
 				0AA97CB61D31B49C0030C30C /* AudioToolbox.framework in Frameworks */,
 				0AA97CB41D31B4970030C30C /* SystemConfiguration.framework in Frameworks */,
 				0AA97CB11D31B4690030C30C /* Bolts.framework in Frameworks */,
 				0AA97CB21D31B4690030C30C /* Parse.framework in Frameworks */,
-				81DA69311AB25A36008C3B7F /* FBSDKCoreKit.framework in Frameworks */,
-				81DA69321AB25A37008C3B7F /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +193,8 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0A1DA5901D6C1B1E007490BE /* FBSDKCoreKit.framework */,
+				0A1DA5911D6C1B1E007490BE /* FBSDKLoginKit.framework */,
 				813DFC8F1AB2513D00F25A08 /* User Frameworks */,
 				813DFC8E1AB2513300F25A08 /* System Frameworks */,
 			);
@@ -530,7 +534,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = PF;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Parse, LLC";
 				TargetAttributes = {
 					81CB98C51AB7905D00136FA5 = {
@@ -733,6 +737,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F52CD64A1B5838560051AB86 /* ParseFacebookUtilsV4-iOS.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
@@ -740,6 +749,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F52CD64A1B5838560051AB86 /* ParseFacebookUtilsV4-iOS.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
@@ -747,6 +761,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8178BEA51B716BF300051CF4 /* Debug.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				PARSE_DIR = "$(PROJECT_DIR)/..";
 			};
 			name = Debug;
@@ -755,6 +773,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8178BEA61B716BF300051CF4 /* Release.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				PARSE_DIR = "$(PROJECT_DIR)/..";
 			};
 			name = Release;
@@ -763,6 +785,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F52CD64B1B5838620051AB86 /* ParseFacebookUtilsV4-UnitTests.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
@@ -770,6 +793,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F52CD64B1B5838620051AB86 /* ParseFacebookUtilsV4-UnitTests.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
@@ -791,6 +815,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F52CD64C1B58386F0051AB86 /* ParseFacebookTestApplicationV4.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
@@ -798,6 +823,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F52CD64C1B58386F0051AB86 /* ParseFacebookTestApplicationV4.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
