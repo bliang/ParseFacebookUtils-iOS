@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A078E191DB754C8002DD651 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A078E161DB75272002DD651 /* UIKit.framework */; };
+		0A078E1B1DB754E0002DD651 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A078E1A1DB754E0002DD651 /* Foundation.framework */; };
+		0A078E1D1DB754FB002DD651 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A078E1C1DB754FB002DD651 /* CoreGraphics.framework */; };
 		0A1DA5941D6C1BAD007490BE /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DA692F1AB25A36008C3B7F /* FBSDKCoreKit.framework */; };
 		0A1DA5951D6C1BAD007490BE /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DA69301AB25A36008C3B7F /* FBSDKLoginKit.framework */; };
 		0AA97CB11D31B4690030C30C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA97CAF1D31B4690030C30C /* Bolts.framework */; };
@@ -67,6 +70,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A078E161DB75272002DD651 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0A078E1A1DB754E0002DD651 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0A078E1C1DB754FB002DD651 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		0A1DA5901D6C1B1E007490BE /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../FB 4.14/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
 		0A1DA5911D6C1B1E007490BE /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../FB 4.14/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		0AA97CAF1D31B4690030C30C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../parse-library-1.12.0/Bolts.framework"; sourceTree = "<group>"; };
@@ -146,6 +152,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A078E1D1DB754FB002DD651 /* CoreGraphics.framework in Frameworks */,
+				0A078E1B1DB754E0002DD651 /* Foundation.framework in Frameworks */,
+				0A078E191DB754C8002DD651 /* UIKit.framework in Frameworks */,
 				0A1DA5941D6C1BAD007490BE /* FBSDKCoreKit.framework in Frameworks */,
 				0A1DA5951D6C1BAD007490BE /* FBSDKLoginKit.framework in Frameworks */,
 				0AA97CB61D31B49C0030C30C /* AudioToolbox.framework in Frameworks */,
@@ -193,6 +202,9 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0A078E1C1DB754FB002DD651 /* CoreGraphics.framework */,
+				0A078E1A1DB754E0002DD651 /* Foundation.framework */,
+				0A078E161DB75272002DD651 /* UIKit.framework */,
 				0A1DA5901D6C1B1E007490BE /* FBSDKCoreKit.framework */,
 				0A1DA5911D6C1B1E007490BE /* FBSDKLoginKit.framework */,
 				813DFC8F1AB2513D00F25A08 /* User Frameworks */,
